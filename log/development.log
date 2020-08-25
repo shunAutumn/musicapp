@@ -1,0 +1,29 @@
+Started GET "/" for ::1 at 2020-08-25 15:02:39 +0900
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.haml within layouts/application
+  Rendered posts/_left_bar.html.haml (Duration: 19.7ms | Allocations: 11935)
+  Rendered posts/_main_contents.html.haml (Duration: 37.4ms | Allocations: 23317)
+  Rendered posts/_right_bar.html.haml (Duration: 2.3ms | Allocations: 1569)
+  Rendered posts/index.html.haml within layouts/application (Duration: 67.4ms | Allocations: 40976)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/akiyamashuntarou/projects/musicapp/public/packs
+[Webpacker] Hash: 15d1bb7b54cf6326b9ba
+Version: webpack 4.44.1
+Time: 1391ms
+Built at: 2020/08/25 15:02:43
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-9afcbb5693aa87623e69.js    124 KiB  application  [emitted] [immutable]  application
+js/application-9afcbb5693aa87623e69.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9afcbb5693aa87623e69.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 3826ms (Views: 3814.6ms | ActiveRecord: 1.5ms | Allocations: 1486053)
+
+
